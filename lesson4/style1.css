@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: aquamarine;
+  height: 100vh;
+  width: 20vw;
+}
+
+.general {
+  display: flex;
+}
+
+.header{
+    background-color: chartreuse;
+    display: flex;
+    height: 20vh;
+}
+
+
+.famaly {
+  display: flex;
+  height: 60vh;
+}
+
+.art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 50vw;
+    background-color: chocolate;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 141, 141);
+  width: 30vw;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80vw;
+  height: 20vh;
+  background-color: rgb(148, 15, 201);
+}

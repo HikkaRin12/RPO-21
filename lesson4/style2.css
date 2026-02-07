@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 36px;
+  font-weight: 800;
+}
+.header{
+    background-color: chartreuse;
+    display: flex;
+    height: 20vh;
+}
+
+.general {
+  display: flex;
+}
+.famaly {
+  display: flex;
+  height: 60vh;
+}
+
+.art {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+    width: 60vw;
+    background-color: chocolate;
+}
+
+.aside {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: rgb(17, 141, 141);
+  width: 20vw;
+}
+.nav {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: aquamarine;
+  width: 20vw;
+}
+.footer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 20vh;
+  background-color: rgb(148, 15, 201);
+}

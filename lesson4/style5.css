@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.general {
+    display: flex;
+}
+
+.element{
+    dipsplay: flex;
+    box-sizing: border-box ;
+}
+.header {
+    background-color: rgb(79, 93, 219);
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+}
+
+.famaly {
+    display: flex;
+    height: 60vh;
+}
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: rgba(61, 155, 23, 0.5);
+    width: 23vw;
+}
+.art {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    background-color: rgb(202, 33, 160);
+}
+.aside {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: rgb(17, 141, 141);
+  width: 27vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 20vh;
+    background-color: rgb(30, 165, 30);
+}
