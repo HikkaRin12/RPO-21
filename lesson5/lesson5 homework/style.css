@@ -24,6 +24,14 @@ h1 {
   border: 5px solid black;
   border-radius: 20px;
   background: url(images/stred.png) no-repeat center/cover;
+  position: relative;
 
   position: relative;
+}
+.dopis{
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  z-index: 100%;
+  
 }

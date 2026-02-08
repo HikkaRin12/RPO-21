@@ -1,0 +1,55 @@
+body {
+  justify-content: center;
+  align-content: center;
+}
+
+.parent {
+  margin-top: 200px;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+
+  position: relative;
+}
+.child {
+  width: 200px;
+  height: 80px;
+  background-color: blue;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.overflow{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red ;
+    margin: 0 auto;
+
+    overflow: auto;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+}
+
+.overflow::-webkit-scrollbar{
+    width: 8px;
+
+}
+
+.overflow::-webkit-scrollbar-thumb{
+    background: green;
+    border-radius: 10px;
+
+}
+
+.overflow::-webkit-scrollbar-track{
+    background-color: rgb(114, 114, 192);
+
+}
+
+.overflow::-webkit-scrollbar-thumb:hover{
+    background: blue;
+}
