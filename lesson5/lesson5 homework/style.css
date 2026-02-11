@@ -1,4 +1,4 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
 html {
   box-sizing: border-box;
 }
@@ -29,9 +29,35 @@ h1 {
   position: relative;
 }
 .dopis{
-  position: absolute;
-  top: 100%;
-  left: 20px;
-  z-index: 100%;
+  position:relative;
+  top:240px;
+  right: 0;
   
+}
+.motyl{
+  position: relative;
+  top: 100px;
+    left: 170px;
+  
+}
+.kniha{
+  position: relative;
+  bottom: 80px;
+   right:315px;
+}
+.spanek{
+  position:relative;
+  top: 240px;
+   left: 25px;
+}
+.sluchatka{
+  position:relative;
+  bottom: -20px;
+  left: 160px;
+}
+.dopis{
+  position:relative;
+  top:240px;
+  right: 0;
+
 }
