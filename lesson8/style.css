@@ -1,0 +1,57 @@
+.container {
+    border: 1px solid black  ;
+  width: 1000px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.3);
+ background-image: url(bg-container.jpg); 
+
+  background-repeat: no-repeat;
+ background-size:cover 
+ background-size: contain;
+  background-position: center;
+    background-blend-mode: overlay; 
+
+    /box-shadow: 10px 5px 0.5 red;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000; 
+
+
+
+ }
+h1{
+    color: white;
+}
+.grad{
+    border: 1px solid black;
+    width: 1000px;
+  height: 500px;
+
+  /*background-image: linear-gradient(
+    /* to left, */
+    30deg,
+    red 30%
+    green 60%
+    blue
+
+  /*)*/
+
+  background-image:radial-gradient(
+    circle at left,
+    red 30%,
+    green 50%,
+    blue 70%,
+  );
+}
+a{
+    margin-left: 40px;
+    margint-top 40px;
+}
+/* a::after{ */
+    /* content: это будет после; */
+/* } */
+a:: :hover::after{
+    content: MUAAHAHHA;
+}
+a::hover::before{
+    content: XD;
+}
