@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-position: cover;
+}
+
+@each $animal in dog, cat, bird, triceratops{
+    .#{$animal}-icon{
+        background-image: url('../images/#{$animal}.png');
+        width: 100px;
+        height: 100px;
+    }
+}
