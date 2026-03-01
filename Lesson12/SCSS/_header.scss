@@ -1,0 +1,34 @@
+@use "variables";
+
+h1 {
+  color: variables.$RedColor;
+}
+
+header {
+  border: 2px solid variables.$RedColor;
+  padding: variables.$reset_padding;
+  margin: variables.$reset_margin;
+}
+
+.list {
+  color: black;
+
+  .list_item {
+    color: blue;
+  }
+  .link {
+    color: green;
+  }
+
+  &_item {
+    color: blue;
+  }
+  &_link {
+    color: green;
+
+    &:hover {
+      color: variables.$RedColor;
+      transform: scale(2);
+    }
+  }
+}

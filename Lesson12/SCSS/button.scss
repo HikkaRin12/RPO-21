@@ -1,0 +1,27 @@
+// @use "mixins";
+@import "mixins";
+.btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(116, 116, 23);
+    padding: 10px;
+}
+
+
+%button{
+    border: 1px dotted rgb(243, 28, 28);
+    border-radius: 20px;
+    background-color: yellow;
+    padding: 30px;
+}
+
+
+
+.btn2{
+    @extend %button;
+    // @include mixins.bg(orchid);
+    @include bg(orchid);
+}
+.btn{
+    @extend %button;
+}
